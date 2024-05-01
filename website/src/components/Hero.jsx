@@ -11,7 +11,7 @@ const Hero = () => {
           </h1>
           <h1 className="px-12 text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold">
             {" "}
-            <span className="text-orange-500">Foods</span> Devlivered
+            <span className="text-orange-500">Foods</span> Delivered
           </h1>
         </div>
         <img
