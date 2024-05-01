@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
         <Navbar />
-        {/* <Hero />
-        <HeadlineCards />
+         <Hero />
+        {/*<HeadlineCards />
         <Food />
         <Category /> */}
     </div>

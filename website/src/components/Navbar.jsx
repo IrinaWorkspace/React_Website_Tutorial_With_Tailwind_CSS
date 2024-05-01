@@ -20,8 +20,8 @@ const Navbar = () => {
         <div onClick={() => setNav(!nav)} className="cursor-pointer pt-1">
           <AiOutlineMenu size={34} />
         </div>
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-          Best <span className="font-bold">Eats</span>
+        <h1 className="text-3xl sm:text-4xl lg:text-4xl px-2">
+          Best <span className="font-bold text-orange-500 ">Eats</span>
         </h1>
         <div className="hidden lg:flex items-center bg-gray-200 rounded p-1 text-[14px] ms-4">
           <p className="bg-black text-white rounded  p-2">Delivery</p>
@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
 
       {/* Search Input */}
-      <div className="bg-gray-200 rounded flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
+      <div className="bg-gray-200 rounded flex items-center px-2 w-[150px] sm:w-[300px] lg:w-[500px]">
         <AiOutlineSearch size={25} />
         <input
           className="bg-transparent p-2 w-full focus:outline-none"
@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
       {/* Cart button */}
       <button className="bg-black text-white hidden md:flex items-center py-2 rounded">
-        <BsFillCartFill size={20} className="mr-2" /> Cart
+        <BsFillCartFill size={20} className="mr-2 text-orange-500" /> Cart
       </button>
 
       {/* Mobile Menu */}
