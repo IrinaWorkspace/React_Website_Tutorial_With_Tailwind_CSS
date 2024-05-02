@@ -70,29 +70,29 @@ const Food = () => {
 
         {/* Filter Price */}
         <div>
-          <p className="font-bold text-gray-700">Filter Price</p>
+          <p className="font-bold text-gray-700 ">Filter Price</p>
           <div className="flex justify-between max-w-[390px] w-full">
             <button
               onClick={() => filterPrice("$")}
-              className="m-1 border-orange-600 text-black-50 hover:bg-orange-600 hover:text-black-50 rounded-full"
+              className="m-1 border-orange-500 text-slate-600 font-bold hover:bg-orange-600 hover:text-white rounded-full"
             >
               $
             </button>
             <button
               onClick={() => filterPrice("$$")}
-              className="m-1 border-orange-600 text-black-50 hover:bg-orange-600 hover:text-black-50 rounded-full"
+              className="m-1 border-orange-500 text-slate-600 font-bold hover:bg-orange-600 hover:text-white rounded-full"
             >
               $$
             </button>
             <button
               onClick={() => filterPrice("$$$")}
-              className="m-1 border-orange-600 text-black-50 hover:bg-orange-600 hover:text-black-50 rounded-full"
+              className="m-1 border-orange-500 text-slate-600 font-bold hover:bg-orange-600 hover:text-white rounded-full"
             >
               $$$
             </button>
             <button
               onClick={() => filterPrice("$$$$")}
-              className="m-1 border-orange-600 text-black-50 hover:bg-orange-600 hover:text-black-50 rounded-full"
+              className="m-1 border-orange-500 text-slate-600 font-bold hover:bg-orange-600 hover:text-white rounded-full"
             >
               $$$$
             </button>
@@ -112,14 +112,12 @@ const Food = () => {
               alt={item.name}
               className="w-full h-[200px] object-cover rounded-t"
             />
-            <div className="flex justify-between items-center px-4 py-4">
+            <div className="flex justify-between items-end px-2 py-2 lg:px-4 lg:py-4">
               <p className="font-bold text-sm md:text-base lg:text-lg">
                 {item.name}
               </p>
               <p>
-                <span className="bg-orange-500 text-white p-2 rounded-lg">
-                  {item.price}
-                </span>
+                <span className=" text-orange-500 font-bold">{item.price}</span>
               </p>
             </div>
           </div>

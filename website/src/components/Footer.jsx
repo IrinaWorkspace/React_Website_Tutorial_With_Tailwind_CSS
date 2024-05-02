@@ -34,7 +34,7 @@ const Footer = () => {
 
   return (
     <div className="app min-h-800 flex items-end justify-center font-poppins mt-6">
-      <div className="py-2 pt-12 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 bg-black text-white w-full p-4 relative">
+      <div className="py-2 pt-12 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 bg-black text-white w-full p-4 relative pb-10">
         <div className="  ">
           <div className="footer-img flex items-center">
             {/* <img
